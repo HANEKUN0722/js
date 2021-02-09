@@ -1,15 +1,13 @@
-var hello = 'Hello World';
-alert(hello);
+// メイン部分
+var alertString;
+alertString = addString("WebCamp");
 
+// 作成した関数を呼び出す
+alert(alertString);
 
-// 足し算
-alert('4足す3は' + (4 + 3));
+// 作成した関数
+function addString(strA){
+  var addStr = "Hello " + strA;
+  return addStr;
+}
 
-// 引き算
-alert('8引く5は' + (8 - 5));
-
-// 掛け算
-alert('2掛ける6は' + (2 * 6));
-
-// 割り算
-alert('10割る2は'  + (10 / 2));
